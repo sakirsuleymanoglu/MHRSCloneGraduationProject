@@ -1,13 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
 using System.Data.SqlClient;
+using System.Windows.Forms;
 
 namespace Marmara_Randevu_Sistemi
 {
@@ -23,7 +17,7 @@ namespace Marmara_Randevu_Sistemi
         SqlCommand komut;
 
         SqlDataReader okuyucu;
-  
+
         public static Kisi kisi = new Kisi();
 
         private void FrmMRS_Uye_Ol_Kimlik_Bilgileri_Load(object sender, EventArgs e)

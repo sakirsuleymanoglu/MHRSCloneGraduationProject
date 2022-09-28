@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Marmara_Randevu_Sistemi
 {
@@ -21,6 +17,6 @@ namespace Marmara_Randevu_Sistemi
         public string Eposta { get; set; }
         public string Parola { get; set; }
         public Guvenlik Guvevlik { get; set; }
-        public string Cevap { get; set; }   
+        public string Cevap { get; set; }
     }
 }

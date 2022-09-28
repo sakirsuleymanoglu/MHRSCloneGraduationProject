@@ -1,14 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
+﻿using Marmara_Randevu_Sistemi.Formlar.Karşılama;
+using System;
 using System.Data.SqlClient;
-using Marmara_Randevu_Sistemi.Formlar.Karşılama;
+using System.Windows.Forms;
 
 namespace Marmara_Randevu_Sistemi
 {
@@ -172,8 +165,8 @@ namespace Marmara_Randevu_Sistemi
                     FrmMRS_Karsilama_Ekrani frmMRS_Karsilama_Ekrani = new FrmMRS_Karsilama_Ekrani();
                     frmMRS_Karsilama_Ekrani.Show();
 
-                   /* FrmMRS_Kisi_Panel frmMRS_Kisi_Panel = new FrmMRS_Kisi_Panel();
-                    frmMRS_Kisi_Panel.Show();*/
+                    /* FrmMRS_Kisi_Panel frmMRS_Kisi_Panel = new FrmMRS_Kisi_Panel();
+                     frmMRS_Kisi_Panel.Show();*/
                     this.Visible = false;
                 }
                 else
@@ -194,6 +187,6 @@ namespace Marmara_Randevu_Sistemi
             {
                 e.Handled = false;
             }
-        } 
+        }
     }
 }

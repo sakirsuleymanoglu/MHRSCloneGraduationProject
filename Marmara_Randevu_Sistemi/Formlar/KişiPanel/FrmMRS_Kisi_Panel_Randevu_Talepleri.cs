@@ -1,12 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
 using System.Data.SqlClient;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Marmara_Randevu_Sistemi
@@ -151,7 +146,7 @@ namespace Marmara_Randevu_Sistemi
             pbxKapat.SetBounds(pbxKapat.Location.X, pbxKapat.Location.Y, 32, 32);
 
             pbxKapat.ImageLocation = @"C:\Users\sakir\source\repos\MRS\icons\close_white.png";
-        } 
+        }
     }
 }
 
